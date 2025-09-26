@@ -1,0 +1,507 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.back{
+    color: #4070f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 5%;
+    
+}
+
+.port{
+    color: #4070f4;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main1{
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   
+   
+}
+
+.main-content{
+    margin-top: 80px;
+    z-index: 2;
+}
+.about-header{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1%;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color:#ffffff;
+    padding-top: 1%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.newheader{
+    background-color: #4070f4;
+}
+.newport{
+    color: #ffffff;
+}
+.newlink{
+    color: #ffffff;
+}
+.newlink:hover{
+    color: black;
+}
+.newback{
+    color: white;
+}
+.oldnav{
+    color: black;
+}
+
+.nav{
+    color: #000000;
+  
+    font-size:large;
+    font-weight: 600;
+    padding: 2%;
+    gap: 20%;
+    
+}
+.navigation a li.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+
+}
+.nav:hover{
+    color: #4070f4;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.link{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+.name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: auto;
+    transform: translate(7%,-30%);
+    
+}
+.hire{
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #4070f4;
+    font-size: 25px;
+    padding: 5px 20px;
+    z-index: 2;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
+    border: 2px solid transparent;
+    cursor: pointer;
+  transition: all 0.4s ease;
+}
+.hire:hover{
+
+background-color: white;
+color:#4070f4;
+border: 2px solid #4070f4 ;
+box-shadow: 0 0 5px #4070f4;
+animation: chagecolor 3s linear infinite;
+}
+@keyframes changecolor {
+    0%{
+        background-color: #4070f4;
+    }
+    100%{
+      background-color: white;  
+    }
+}
+a{
+    text-decoration: none;
+}
+.span{
+    font-size: large;
+    font-weight: 600;
+}
+.footer{
+
+
+}
+.footer-inner {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;              /* make it span full width */
+  display: flex;            /* flex layout */
+visibility: hidden;
+  background-color: #4070f4;
+  padding: 30px 0;     /* center all items */
+}
+
+.f-link {
+  display: flex;
+  justify-content: space-between; /* space between the icons */
+  width: 60%;  /* control how much space they take (adjust as needed) */
+  max-width: 600px;
+    margin:0% 8%;
+ gap: 18%;
+ z-index: 1;
+
+ 
+  /* keep it neat on big screens */
+}
+
+/* @media (max-width:600px) {
+    .navigation{
+        visibility: hidden;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+          gap: 50%;
+    }.visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .header.port h1{
+        position: relative;
+        margin-top: 20%;
+        padding-top: 20%;
+    }
+   
+    .name{
+        font-size: 40px;
+    }
+    .link{
+     gap: 1%;
+     padding: 0;
+     margin: 0;
+    }
+    .f-link {
+    
+    gap: 80%;
+    align-items: center;
+    
+
+ 
+} 
+.f-link a i{
+    padding: 50%;
+}
+
+    
+} */
+ @media (max-width:1000px) {
+    .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+
+    
+ }
+@media (min-width:500) and (max-width:600px){
+    .navigation{
+        visibility: hidden;
+    }
+    .f-link{
+        margin:0% 6%;
+        gap: 15%;
+    }
+    .navigation{
+        visibility: hidden;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }.visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .header.port h1{
+        position: relative;
+        margin-top: 20%;
+        padding-top: 20%;
+    }
+   
+    .content.name{
+        font-size: 40px;
+    }
+    .link{
+     gap: 1%;
+     padding: 0;
+     margin: 0;
+    }
+     .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+
+}
+@media (min-width:450) and (max-width:500px){
+    .navigation{
+        visibility: hidden;
+    }
+     .name{
+        font-size: 40px;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }.visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .header.port h1{
+        position: relative;
+        margin-top: 20%;
+        padding-top: 20%;
+    }
+   
+    .content.name{
+        font-size: 20px;
+    }
+    .link{
+     gap: 1%;
+     padding: 0;
+     margin: 0;
+    }
+     .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+}
+@media (min-width:450) and (max-width:500px) {
+    .navigation{
+        visibility: hidden;
+    }
+     .content.name{
+        font-size: 40px;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }.visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .header.port h1{
+        position: relative;
+        margin-top: 20%;
+        padding-top: 20%;
+    }
+   
+    .content.name{
+        font-size: 40px;
+    }
+    .link{
+     gap: 1%;
+     padding: 0;
+     margin: 0;
+    }
+    
+
+     .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+}
+@media (min-width:300px ) and (max-width:350px) {
+      .navigation{
+        visibility: hidden;
+    }
+     .content.name{
+        font-size: 40px;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }
+    .visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .f-link {
+  display: flex;
+  justify-content: space-between; /* space between the icons */
+  width: 30%;  /* control how much space they take (adjust as needed) */
+  max-width: 600px;
+    margin:0% ;
+    padding-left: 5px;
+    gap: 10%;
+    
+
+  /* keep it neat on big screens */
+} 
+i{
+    font-size:small ;
+}
+ .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }}
+   @media (min-width:350px) and (max-width:400px) {
+      .navigation{
+        visibility: hidden;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }
+
+    .f-link{
+        margin:0% 8%;
+        gap: 18%;
+    }
+     .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+   }
+
+   @media (min-width:400px) and (max-width:450px) {
+      .navigation{
+        visibility: hidden;
+    }
+    .port{
+        position: relative;
+        top: 20%;
+    }
+    .visible1{
+        color: #ffffff;
+        z-index: 1;
+    }
+    .link{
+        position: absolute;
+        
+    }
+    .footer-inner{
+          visibility: visible;
+          color:black;
+          z-index: 1;
+    }
+
+    .f-link{
+    margin:0% 8%;
+    gap: 18%;
+    }
+    .round{
+        visibility: hidden;
+        left: 0%;
+        
+    }
+    #round2{
+        padding: 30px 1px;
+        margin:3px;
+        top: 20px;
+    }
+    #round3{
+       
+        top: 0%;
+        margin-top: 0px;
+    }
+   }
+.house{
+    width: 30px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

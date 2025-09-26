@@ -1,0 +1,40 @@
+.title{
+    position: relative;
+    text-align: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.topic{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+#para{text-align: center;
+    font-family: 'Ubuntu','sans-serif';
+    font-size: 20px;
+    padding:2% 10%;
+}
+.title h1::before,.title h1::after{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 8%;
+    background-color:  #4070f4;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.title h1::after{
+    bottom: -7px;
+    width: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}

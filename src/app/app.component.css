@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+}
+.active{
+    color: black;
+}
+.newlink{
+    color: #ffffff;
+}
+.newlink:hover{
+    color: black;
+}
+#link{
+    padding: 10%;
+}
+.link{
+    display: flex;
+    gap: 10%;
+    padding-right: 10%;
+}

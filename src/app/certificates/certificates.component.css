@@ -1,0 +1,53 @@
+.certi h1{
+    position: relative;
+    font-size:30px;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+color: black;
+justify-content: center;
+align-items: center;
+}
+.certi h1::before,.certi h1::after{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 8%;
+    background-color:  #4070f4;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.certi h1::after{
+    bottom: -7px;
+    width: 10%;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.certi1{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+    text-align: center;
+    border: black;
+}
+.certificate{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.images{
+width: 100%;
+padding: 2%;
+margin: 2%;
+
+}
+@media (max-width:500px) {
+    .certificate{
+        grid-template-columns: auto;
+        padding-bottom: 20%;
+    }
+   
+}

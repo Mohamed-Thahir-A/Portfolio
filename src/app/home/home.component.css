@@ -1,0 +1,22 @@
+.content{
+    padding-top: 0;
+    z-index: 2;
+}
+.white{
+    color: white;
+}
+.anime {
+    font-size: 7rch;
+    font-family: 'Ubuntu','sans-serif';
+    color: #4070f4;
+     transition: opacity 0.3s ease-in-out;
+}
+@media (max-width:500px) {
+    .anime{
+        font-size: 20px;
+    }
+    
+}
+/* .he{
+    color: black;
+} */
